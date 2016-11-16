@@ -37,14 +37,18 @@ void linkedList::push(double info, int count, int max)
 
 }
 
-void linkedList::print()
+
+void linkedList::print(int count, int max)
 {
     current = head;
 
-    while (current != nullptr )
+    while (current != nullptr)
     {
+        for (count = 0; count < max; count++)
+        {
             std::cout << current -> num << std::endl;
             current = current -> next;
+        }
     }
 }
 
