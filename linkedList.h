@@ -3,7 +3,7 @@ class linkedList
 public:
 	linkedList();
 	void push(double info, int count, int max);
-	void print();
+	void print(int count, int max);
 	double sum(int);
 	double average();
 	double minimum();
