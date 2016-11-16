@@ -41,7 +41,7 @@ void linkedList::print()
 {
     current = head;
 
-    while (current->next != nullptr )
+    while (current != nullptr )
     {
             std::cout << current -> num << std::endl;
             current = current -> next;
